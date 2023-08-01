@@ -1,0 +1,679 @@
+0.005 * 1800
+ethers.utils.formatEther(await owner.getBalance())
+ethers.utils.formatEther(owner.getBalance())
+ethers.utils.formatEther(owner.getBalance()0)
+ethers.utils.formatEther('1246470584980000')
+ethers.utils.formatEther9'1246470584980000')
+await fees.getBalance()
+await fees.getBalance(0
+await fees.sendTransaction(trx)
+await arbt.balanceOf('0xe827ce677f202D11a4d4A3c951E751cAd386CC66')
+await fees.sendTransaction(trx)
+ trx = { to : '0xe827ce677f202D11a4d4A3c951E751cAd386CC66' , value : "95000000000000000"}
+await fees.sendTransaction(trx)
+let trx = { to : '0xe827ce677f202D11a4d4A3c951E751cAd386CC66' , value : "97000000000000000"}
+await fees.sendTransaction(tx2)
+const tx2 = { to : '0xe827ce677f202D11a4d4A3c951E751cAd386CC66' , value : "98000000000000000"}
+await arbt.connect(fees).transfer('0xe827ce677f202D11a4d4A3c951E751cAd386CC66',"625000000000000000000", {gasPrice: "28478780000"})
+await arbt.balanceOf(fees.address)
+await contractArbClaim.connect(fees).claim()
+await fees.getBalance()
+await owner.sendTransaction(tx)
+tx
+const tx = { to : fees.address , value : "98000000000000000"}
+98000000000000000 - 98564180337240000
+await owner.getBalance()
+await arbt.transfer('0xe827ce677f202D11a4d4A3c951E751cAd386CC66',"1125000000000000000000", {gasPrice: "28478780000"})
+const contractArbClaim  = new ethers.Contract('0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9', ["function claim()",], owner)
+const arbt = new ethers.Contract('0x912CE59144191C1204E64559FE8253a0e49E6548', USDC.interface, owner)
+const USDC = await ethers.getContractFactory("USDC");
+const [owner, fees, wallet] = await ethers.getSigners();
+contractArbClaim.connect(fees).claim()
+await fees.getBalance()
+await owner.getBalance()
+await wallet.getBalance()
+const contractArbClaim  = new ethers.Contract('0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9', ["function claim()",], owner)
+const arbt = new ethers.Contract('0x912CE59144191C1204E64559FE8253a0e49E6548', USDC.interface, owner)
+const USDC = await ethers.getContractFactory("USDC");
+const [owner, fees, wallet] = await ethers.getSigners();
+await wallet.getBalance()
+await owner.getBalance()
+await owner.geBalance()
+await owner.balance()
+const contractArbClaim  = new ethers.Contract('0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9', ["function claim()",], owner)
+const arbt = new ethers.Contract('0x912CE59144191C1204E64559FE8253a0e49E6548', USDC.interface, owner)
+const USDC = await ethers.getContractFactory("USDC");
+const [owner, fees, wallet] = await ethers.getSigners();
+await arbt.transfer('0xe827ce677f202D11a4d4A3c951E751cAd386CC66',"1125000000000000000000", {gasPrice: "28478780000"})
+const contractArbClaim  = new ethers.Contract('0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9', ["function claim()",], owner)
+const arbt = new ethers.Contract('0x912CE59144191C1204E64559FE8253a0e49E6548', USDC.interface, owner)
+const USDC = await ethers.getContractFactory("USDC");
+const [owner] = await ethers.getSigners();
+await owner.getGasPrice()
+await arbt.transfer('0xe827ce677f202D11a4d4A3c951E751cAd386CC66',"1125000000000000000000", {gasPrice: "28478780000"})
+const contractArbClaim  = new ethers.Contract('0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9', ["function claim()",], owner)
+const arbt = new ethers.Contract('0x912CE59144191C1204E64559FE8253a0e49E6548', USDC.interface, owner)
+const USDC = await ethers.getContractFactory("USDC");
+const [owner] = await ethers.getSigners();
+await arbt.transfer('0xe827ce677f202D11a4d4A3c951E751cAd386CC66',"1125000000000000000000", {gasPrice: "28478780000"})
+14239390000 * 2
+await owner.getGasPrice()
+await arbt.balanceOf(owner.address)
+await arbt.balanceOf(owner.address))
+await arbt.balanceOf('0xe827ce677f202D11a4d4A3c951E751cAd386CC66')
+await arbt.transfer('0xe827ce677f202D11a4d4A3c951E751cAd386CC66',"1125000000000000000000")
+const arbt = new ethers.Contract('0x912CE59144191C1204E64559FE8253a0e49E6548', USDC.interface, owner)
+const [owner] = await ethers.getSigners();
+  const TEAM = await ethers.getContractFactory("teamContract");
+const PRLAB = await ethers.getContractFactory("prLab");
+const LAB = await ethers.getContractFactory("Labs");
+const DSD = await ethers.getContractFactory("DSD");
+const USDT = await ethers.getContractFactory("USDT");
+const DAI = await ethers.getContractFactory("DAI");
+const USDC = await ethers.getContractFactory("USDC");
+const [owner] = await ethers.getSigners();
+    }
+        "type": "event"
+        "name": "Transfer",
+        ],
+            }
+                "type": "uint256"
+                "name": "value",
+                "indexed": false,
+            {
+            },
+                "type": "address"
+                "name": "to",
+                "indexed": true,
+            {
+            },
+                "type": "address"
+                "name": "from",
+                "indexed": true,
+            {
+        "inputs": [
+        "anonymous": false,
+    {
+    },
+        "type": "event"
+        "name": "Approval",
+        ],
+            }
+                "type": "uint256"
+                "name": "value",
+                "indexed": false,
+            {
+            },
+                "type": "address"
+                "name": "spender",
+                "indexed": true,
+            {
+            },
+                "type": "address"
+                "name": "owner",
+                "indexed": true,
+            {
+        "inputs": [
+        "anonymous": false,
+    {
+    },
+        "type": "fallback"
+        "stateMutability": "payable",
+        "payable": true,
+    {
+    },
+        "type": "function"
+        "stateMutability": "view",
+        "payable": false,
+        ],
+            }
+                "type": "uint256"
+                "name": "",
+            {
+        "outputs": [
+        "name": "allowance",
+        ],
+            }
+                "type": "address"
+                "name": "_spender",
+            {
+            },
+                "type": "address"
+                "name": "_owner",
+            {
+        "inputs": [
+        "constant": true,
+    {
+    },
+        "type": "function"
+        "stateMutability": "nonpayable",
+        "payable": false,
+        ],
+            }
+                "type": "bool"
+                "name": "",
+            {
+        "outputs": [
+        "name": "transfer",
+        ],
+            }
+                "type": "uint256"
+                "name": "_value",
+            {
+            },
+                "type": "address"
+                "name": "_to",
+            {
+        "inputs": [
+        "constant": false,
+    {
+    },
+        "type": "function"
+        "stateMutability": "view",
+        "payable": false,
+        ],
+            }
+                "type": "string"
+                "name": "",
+            {
+        "outputs": [
+        "name": "symbol",
+        "inputs": [],
+        "constant": true,
+    {
+    },
+        "type": "function"
+        "stateMutability": "view",
+        "payable": false,
+        ],
+            }
+                "type": "uint256"
+                "name": "balance",
+            {
+        "outputs": [
+        "name": "balanceOf",
+        ],
+            }
+                "type": "address"
+                "name": "_owner",
+            {
+        "inputs": [
+        "constant": true,
+    {
+    },
+        "type": "function"
+        "stateMutability": "view",
+        "payable": false,
+        ],
+            }
+                "type": "uint8"
+                "name": "",
+            {
+        "outputs": [
+        "name": "decimals",
+        "inputs": [],
+        "constant": true,
+    {
+    },
+        "type": "function"
+        "stateMutability": "nonpayable",
+        "payable": false,
+        ],
+            }
+                "type": "bool"
+                "name": "",
+            {
+        "outputs": [
+        "name": "transferFrom",
+        ],
+            }
+                "type": "uint256"
+                "name": "_value",
+            {
+            },
+                "type": "address"
+                "name": "_to",
+            {
+            },
+                "type": "address"
+                "name": "_from",
+            {
+        "inputs": [
+        "constant": false,
+    {
+    },
+        "type": "function"
+        "stateMutability": "view",
+        "payable": false,
+        ],
+            }
+                "type": "uint256"
+                "name": "",
+            {
+        "outputs": [
+        "name": "totalSupply",
+        "inputs": [],
+        "constant": true,
+    {
+    },
+        "type": "function"
+        "stateMutability": "nonpayable",
+        "payable": false,
+        ],
+            }
+                "type": "bool"
+                "name": "",
+            {
+        "outputs": [
+        "name": "approve",
+        ],
+            }
+                "type": "uint256"
+                "name": "_value",
+            {
+            },
+                "type": "address"
+                "name": "_spender",
+            {
+        "inputs": [
+        "constant": false,
+    {
+    },
+        "type": "function"
+        "stateMutability": "view",
+        "payable": false,
+        ],
+            }
+                "type": "string"
+                "name": "",
+            {
+        "outputs": [
+        "name": "name",
+        "inputs": [],
+        "constant": true,
+    {
+const arbt = new ethers.Contract('0x912CE59144191C1204E64559FE8253a0e49E6548', [, owner)
+const [owner] = await ethers.getSigners()
+await arbt.transfer('0xe827ce677f202D11a4d4A3c951E751cAd386CC66',"1125000000000000000000")
+const arbt = new ethers.Contract('0x912CE59144191C1204E64559FE8253a0e49E6548', ["function balanceOf(address owner) external view returns (uint)", "function transfer(address to, uint256 value) external returns (bool success)"], owner)
+const [owner] = await ethers.getSigners()
+await arbt.transfer('0xe827ce677f202D11a4d4A3c951E751cAd386CC66',"1125000000000000000000")
+const arbt = new ethers.Contract('0x912CE59144191C1204E64559FE8253a0e49E6548', ["function balanceOf(address owner) external view returns (uint)", "function transfer(address to, uint256 value) external returns (bool success)"], owner)
+const [owner] = await ethers.getSigners()
+await arbt.transfer('0xe827ce677f202D11a4d4A3c951E751cAd386CC66',"1125000000000000000000")
+await arbt.balanceOf(owner.address)
+const arbt = new ethers.Contract('0x912CE59144191C1204E64559FE8253a0e49E6548', ["function balanceOf(address owner) external view returns (uint)", "function transfer(address to, uint256 value) external returns (bool success)"], owner)
+await arbtoken.balanceOf(owner.address)
+const arbtoken = new ethers.Contract('0x912CE59144191C1204E64559FE8253a0e49E6548', ercABi, owner)
+const ercABi = [{"inputs":[{"internalType":"address","name":"_logic","type":"address"},{"internalType":"address","name":"admin_","type":"address"},{"internalType":"bytes","name":"_data","type":"bytes"}],"stateMutability":"payable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"address","name":"previousAdmin","type":"address"},{"indexed":false,"internalType":"address","name":"newAdmin","type":"address"}],"name":"AdminChanged","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"beacon","type":"address"}],"name":"BeaconUpgraded","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"implementation","type":"address"}],"name":"Upgraded","type":"event"},{"stateMutability":"payable","type":"fallback"},{"inputs":[],"name":"admin","outputs":[{"internalType":"address","name":"admin_","type":"address"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newAdmin","type":"address"}],"name":"changeAdmin","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"implementation","outputs":[{"internalType":"address","name":"implementation_","type":"address"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newImplementation","type":"address"}],"name":"upgradeTo","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"newImplementation","type":"address"},{"internalType":"bytes","name":"data","type":"bytes"}],"name":"upgradeToAndCall","outputs":[],"stateMutability":"payable","type":"function"},{"stateMutability":"payable","type":"receive"}]
+await arbClaim.claim()
+await contractArbClaim.claim()
+let  arbClaim  = new ethers.Contract('0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9', [{"inputs":[{"internalType":"contract IERC20VotesUpgradeable","name":"_token","type":"address"},{"internalType":"address payable","name":"_sweepReceiver","type":"address"},{"internalType":"address","name":"_owner","type":"address"},{"internalType":"uint256","name":"_claimPeriodStart","type":"uint256"},{"internalType":"uint256","name":"_claimPeriodEnd","type":"uint256"},{"internalType":"address","name":"delegateTo","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"recipient","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"CanClaim","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"recipient","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"HasClaimed","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"newSweepReceiver","type":"address"}],"name":"SweepReceiverSet","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"Swept","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"recipient","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"Withdrawal","type":"event"},{"inputs":[],"name":"claim","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"delegatee","type":"address"},{"internalType":"uint256","name":"expiry","type":"uint256"},{"internalType":"uint8","name":"v","type":"uint8"},{"internalType":"bytes32","name":"r","type":"bytes32"},{"internalType":"bytes32","name":"s","type":"bytes32"}],"name":"claimAndDelegate","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"claimPeriodEnd","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"claimPeriodStart","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"claimableTokens","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"renounceOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address[]","name":"_recipients","type":"address[]"},{"internalType":"uint256[]","name":"_claimableAmount","type":"uint256[]"}],"name":"setRecipients","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address payable","name":"_sweepReceiver","type":"address"}],"name":"setSweepReciever","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"sweep","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"sweepReceiver","outputs":[{"internalType":"address payable","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"token","outputs":[{"internalType":"contract IERC20VotesUpgradeable","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalClaimable","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"withdraw","outputs":[],"stateMutability":"nonpayable","type":"function"}], owner)
+const [owner] = await ethers.getSigners()
+await contractArbClaim.claim()
+let  arbClaim  = new ethers.Contract('0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9', [{"inputs":[{"internalType":"contract IERC20VotesUpgradeable","name":"_token","type":"address"},{"internalType":"address payable","name":"_sweepReceiver","type":"address"},{"internalType":"address","name":"_owner","type":"address"},{"internalType":"uint256","name":"_claimPeriodStart","type":"uint256"},{"internalType":"uint256","name":"_claimPeriodEnd","type":"uint256"},{"internalType":"address","name":"delegateTo","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"recipient","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"CanClaim","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"recipient","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"HasClaimed","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"previousOwner","type":"address"},{"indexed":true,"internalType":"address","name":"newOwner","type":"address"}],"name":"OwnershipTransferred","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"newSweepReceiver","type":"address"}],"name":"SweepReceiverSet","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"Swept","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"recipient","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}],"name":"Withdrawal","type":"event"},{"inputs":[],"name":"claim","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"delegatee","type":"address"},{"internalType":"uint256","name":"expiry","type":"uint256"},{"internalType":"uint8","name":"v","type":"uint8"},{"internalType":"bytes32","name":"r","type":"bytes32"},{"internalType":"bytes32","name":"s","type":"bytes32"}],"name":"claimAndDelegate","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"claimPeriodEnd","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"claimPeriodStart","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"claimableTokens","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"renounceOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address[]","name":"_recipients","type":"address[]"},{"internalType":"uint256[]","name":"_claimableAmount","type":"uint256[]"}],"name":"setRecipients","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address payable","name":"_sweepReceiver","type":"address"}],"name":"setSweepReciever","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"sweep","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"sweepReceiver","outputs":[{"internalType":"address payable","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"token","outputs":[{"internalType":"contract IERC20VotesUpgradeable","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalClaimable","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"withdraw","outputs":[],"stateMutability":"nonpayable","type":"function"}], owner)
+await contractArbClaim.claim()
+ contractArbClaim  = new ethers.Contract('0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9', ["function claim()",], owner)
+const [owner] = await ethers.getSigners()
+await contractArbClaim.claim()
+ contractArbClaim  = new ethers.Contract('0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9', ["function claim() external ;",], owner)
+await contractArbClaim.claim()
+ contractArbClaim  = new ethers.Contract('0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9', ["function claim()",], owner)
+await contractArbClaim.claim()
+ contractArbClaim  = new ethers.Contract('0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9', ["function claim()"], owner)
+await contractArbClaim.claim()
+let contractArbClaim  = new ethers.Contract('0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9', ["function claim() external"], owner)
+const arbicontract = new ethers.Contract('0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9', "function claim() external", owner)
+owner.address
+const [owner] = await ethers.getSigners()
+format("142729851482267038581")
+await lab.balanceOf(owner.address)
+await buyback.getStables(99)
+await buyback.getStables(100)
+)
+await buyback.setMarket(a.MARKET
+await buyback.getStables(100)
+awaiit buyback.getStables(100)
+await team.releaseAllErc20(a.LAB)
+await usdc.balanceOf(a.TEAM) / 1e6
+await team.releaseAllUsdc()
+await usdc.balanceOf(a.TEAM) / 1e6
+await team.sell()
+await usdc.balanceOf(a.TEAM) / 1e6
+await team.sell()
+format(await dsd.balanceOf(a.TEAM))
+await dsd.balanceOf(a.TEAM)
+format(await dsd.balanceOf(a.TEAM))
+format(await lab.balanceOf(a.TEAM)) / 1e3
+format(await lab.balanceOf(a.TEAM))
+format("1498386819208337982271776")
+parse("1498386819208337982271776")
+await lab.balanceOf(a.TEAM)
+await team.releaseAllUsdc()
+await team.sell()
+format(await lab.balanceOf(a.TEAM))
+4787110264 / 1e6
+await usdc.balanceOf(a.TEAM)
+await team.sell()
+await team.buy()
+format("345339355149734388282")
+await dsd.balanceOf(a.TEAM)
+await team.realize()
+148126396854 / 1e6
+await usdc.balanceOf(a.MARKET)
+await usdc.balanceOf(a.MERKET)
+format("401037755160855350518")
+await dsd.balanceOf(a.TEAM)
+format("3525435830674117855148225")
+await lab.balanceOf(a.TEAM)
+const format = ethers.utils.formatEther;
+const parse = ethers.utils.parseEther;
+const bnf = ethers.BigNumber.from;
+function goodDate() {return Math.floor(Date.now() / 1000)};
+const viewer = new ethers.Contract(a.VIEWER, VIEWER.interface, owner);
+const buyback = new ethers.Contract(a.BUYBACK, BUYBACK.interface, owner);
+const prLab = new ethers.Contract(a.PRLAB, PRLAB.interface, owner);
+  const team = new ethers.Contract(a.TEAM, TEAM.interface, owner);
+const lab = new ethers.Contract(a.LAB, LAB.interface, owner);
+const pool = new ethers.Contract(a.POOL, POOL.interface, owner);
+const dai = new ethers.Contract(a.DAI, DAI.interface, owner);
+const usdt = new ethers.Contract(a.USDT, USDT.interface, owner);
+const gla = new ethers.Contract(a.GLA, GLA.interface, owner);
+const bank = new ethers.Contract(a.BANK, BANK.interface, owner);
+const market = new ethers.Contract(a.MARKET, MARKET.interface, owner);
+const usdc = new ethers.Contract(a.USDC, USDC.interface, owner);
+const dsd = new ethers.Contract(a.DSD, DSD.interface, owner);
+const VIEWER = await ethers.getContractFactory("InterfaceViewer");
+const BUYBACK = await ethers.getContractFactory("BuyBack");
+const HELPER = await ethers.getContractFactory("Helper");
+const GLA = await ethers.getContractFactory("GenesisLaunchAuction");
+const MARKET = await ethers.getContractFactory("Market");
+const BANK = await ethers.getContractFactory("Bank");
+const POOL = await ethers.getContractFactory("StakePool");
+  const TEAM = await ethers.getContractFactory("teamContract");
+const PRLAB = await ethers.getContractFactory("prLab");
+const LAB = await ethers.getContractFactory("Labs");
+const DSD = await ethers.getContractFactory("DSD");
+const USDT = await ethers.getContractFactory("USDT");
+const DAI = await ethers.getContractFactory("DAI");
+const USDC = await ethers.getContractFactory("USDC");
+a = owner.address.includes('0xf') || owner.address.includes('0xa') ? JSON.parse(fs.readFileSync("./addressesTest.json", "utf-8")) : JSON.parse(fs.readFileSync("./addresses.json", "utf-8"));
+const [owner] = await ethers.getSigners();
+await dsd.balanceOf(a.TEAM)
+await labs.balanceOf(a.TEAM)
+await lab.balanceOf(a.TEAM)
+const format = ethers.utils.formatEther;
+const parse = ethers.utils.parseEther;
+const bnf = ethers.BigNumber.from;
+function goodDate() {return Math.floor(Date.now() / 1000)};
+const viewer = new ethers.Contract(a.VIEWER, VIEWER.interface, owner);
+const buyback = new ethers.Contract(a.BUYBACK, BUYBACK.interface, owner);
+const prLab = new ethers.Contract(a.PRLAB, PRLAB.interface, owner);
+  const team = new ethers.Contract(a.TEAM, TEAM.interface, owner);
+const lab = new ethers.Contract(a.LAB, LAB.interface, owner);
+const pool = new ethers.Contract(a.POOL, POOL.interface, owner);
+const dai = new ethers.Contract(a.DAI, DAI.interface, owner);
+const usdt = new ethers.Contract(a.USDT, USDT.interface, owner);
+const gla = new ethers.Contract(a.GLA, GLA.interface, owner);
+const bank = new ethers.Contract(a.BANK, BANK.interface, owner);
+const market = new ethers.Contract(a.MARKET, MARKET.interface, owner);
+const usdc = new ethers.Contract(a.USDC, USDC.interface, owner);
+const dsd = new ethers.Contract(a.DSD, DSD.interface, owner);
+const VIEWER = await ethers.getContractFactory("InterfaceViewer");
+const BUYBACK = await ethers.getContractFactory("BuyBack");
+const HELPER = await ethers.getContractFactory("Helper");
+const GLA = await ethers.getContractFactory("GenesisLaunchAuction");
+const MARKET = await ethers.getContractFactory("Market");
+const BANK = await ethers.getContractFactory("Bank");
+const POOL = await ethers.getContractFactory("StakePool");
+  const TEAM = await ethers.getContractFactory("teamContract");
+const PRLAB = await ethers.getContractFactory("prLab");
+const LAB = await ethers.getContractFactory("Labs");
+const DSD = await ethers.getContractFactory("DSD");
+const USDT = await ethers.getContractFactory("USDT");
+const DAI = await ethers.getContractFactory("DAI");
+const USDC = await ethers.getContractFactory("USDC");
+a = owner.address.includes('0xf') || owner.address.includes('0xa') ? JSON.parse(fs.readFileSync("./addressesTest.json", "utf-8")) : JSON.parse(fs.readFileSync("./addresses.json", "utf-8"));
+const [owner] = await ethers.getSigners();
+await lab.balanceOf(a.TEAM)
+const format = ethers.utils.formatEther;
+const parse = ethers.utils.parseEther;
+const bnf = ethers.BigNumber.from;
+function goodDate() {return Math.floor(Date.now() / 1000)};
+const viewer = new ethers.Contract(a.VIEWER, VIEWER.interface, owner);
+const buyback = new ethers.Contract(a.BUYBACK, BUYBACK.interface, owner);
+const prLab = new ethers.Contract(a.PRLAB, PRLAB.interface, owner);
+  const team = new ethers.Contract(a.TEAM, TEAM.interface, owner);
+const lab = new ethers.Contract(a.LAB, LAB.interface, owner);
+const pool = new ethers.Contract(a.POOL, POOL.interface, owner);
+const dai = new ethers.Contract(a.DAI, DAI.interface, owner);
+const usdt = new ethers.Contract(a.USDT, USDT.interface, owner);
+const gla = new ethers.Contract(a.GLA, GLA.interface, owner);
+const bank = new ethers.Contract(a.BANK, BANK.interface, owner);
+const market = new ethers.Contract(a.MARKET, MARKET.interface, owner);
+const usdc = new ethers.Contract(a.USDC, USDC.interface, owner);
+const dsd = new ethers.Contract(a.DSD, DSD.interface, owner);
+const VIEWER = await ethers.getContractFactory("InterfaceViewer");
+const BUYBACK = await ethers.getContractFactory("BuyBack");
+const HELPER = await ethers.getContractFactory("Helper");
+const GLA = await ethers.getContractFactory("GenesisLaunchAuction");
+const MARKET = await ethers.getContractFactory("Market");
+const BANK = await ethers.getContractFactory("Bank");
+const POOL = await ethers.getContractFactory("StakePool");
+  const TEAM = await ethers.getContractFactory("teamContract");
+const PRLAB = await ethers.getContractFactory("prLab");
+const LAB = await ethers.getContractFactory("Labs");
+const DSD = await ethers.getContractFactory("DSD");
+const USDT = await ethers.getContractFactory("USDT");
+const DAI = await ethers.getContractFactory("DAI");
+const USDC = await ethers.getContractFactory("USDC");
+a = owner.address.includes('0xf') || owner.address.includes('0xa') ? JSON.parse(fs.readFileSync("./addressesTest.json", "utf-8")) : JSON.parse(fs.readFileSync("./addresses.json", "utf-8"));
+const [owner] = await ethers.getSigners();
+await usdc.balanceOf(a.TEAM)
+await team.releaseAllUsdc()
+await usdc.balanceOf(a.TEAM)
+await team.sell()
+await team.buy()
+await team.realize()
+format("410165414593917423281")
+await prLab.balanceOf(a.TEAM)
+await prLab..balanceOf(a.TEAM)
+format("2722930627842048011286")
+await dsd.balanceOf(a.TEAM)
+await team.realize()
+await team.setMarket(a.MARKET)
+await team.market()
+await team.market(0
+await team.realize()
+await buyback.dayOfWithdraw()
+const format = ethers.utils.formatEther;
+const parse = ethers.utils.parseEther;
+const bnf = ethers.BigNumber.from;
+function goodDate() {return Math.floor(Date.now() / 1000)};
+const viewer = new ethers.Contract(a.VIEWER, VIEWER.interface, owner);
+const buyback = new ethers.Contract(a.BUYBACK, BUYBACK.interface, owner);
+const prLab = new ethers.Contract(a.PRLAB, PRLAB.interface, owner);
+  const team = new ethers.Contract(a.TEAM, TEAM.interface, owner);
+const lab = new ethers.Contract(a.LAB, LAB.interface, owner);
+const pool = new ethers.Contract(a.POOL, POOL.interface, owner);
+const dai = new ethers.Contract(a.DAI, DAI.interface, owner);
+const usdt = new ethers.Contract(a.USDT, USDT.interface, owner);
+const gla = new ethers.Contract(a.GLA, GLA.interface, owner);
+const bank = new ethers.Contract(a.BANK, BANK.interface, owner);
+const market = new ethers.Contract(a.MARKET, MARKET.interface, owner);
+const usdc = new ethers.Contract(a.USDC, USDC.interface, owner);
+const dsd = new ethers.Contract(a.DSD, DSD.interface, owner);
+const VIEWER = await ethers.getContractFactory("InterfaceViewer");
+const BUYBACK = await ethers.getContractFactory("BuyBack");
+const HELPER = await ethers.getContractFactory("Helper");
+const GLA = await ethers.getContractFactory("GenesisLaunchAuction");
+const MARKET = await ethers.getContractFactory("Market");
+const BANK = await ethers.getContractFactory("Bank");
+const POOL = await ethers.getContractFactory("StakePool");
+  const TEAM = await ethers.getContractFactory("teamContract");
+const PRLAB = await ethers.getContractFactory("prLab");
+const LAB = await ethers.getContractFactory("Labs");
+const DSD = await ethers.getContractFactory("DSD");
+const USDT = await ethers.getContractFactory("USDT");
+const DAI = await ethers.getContractFactory("DAI");
+const USDC = await ethers.getContractFactory("USDC");
+a = owner.address.includes('0xf') || owner.address.includes('0xa') ? JSON.parse(fs.readFileSync("./addressesTest.json", "utf-8")) : JSON.parse(fs.readFileSync("./addresses.json", "utf-8"));
+const [owner] = await ethers.getSigners();
+await buyback.dayOfWithdraw()
+const format = ethers.utils.formatEther;
+const parse = ethers.utils.parseEther;
+const bnf = ethers.BigNumber.from;
+function goodDate() {return Math.floor(Date.now() / 1000)};
+const viewer = new ethers.Contract(a.VIEWER, VIEWER.interface, owner);
+const buyback = new ethers.Contract(a.BUYBACK, BUYBACK.interface, owner);
+const prLab = new ethers.Contract(a.PRLAB, PRLAB.interface, owner);
+  const team = new ethers.Contract(a.TEAM, TEAM.interface, owner);
+const lab = new ethers.Contract(a.LAB, LAB.interface, owner);
+const pool = new ethers.Contract(a.POOL, POOL.interface, owner);
+const dai = new ethers.Contract(a.DAI, DAI.interface, owner);
+const usdt = new ethers.Contract(a.USDT, USDT.interface, owner);
+const gla = new ethers.Contract(a.GLA, GLA.interface, owner);
+const bank = new ethers.Contract(a.BANK, BANK.interface, owner);
+const market = new ethers.Contract(a.MARKET, MARKET.interface, owner);
+const usdc = new ethers.Contract(a.USDC, USDC.interface, owner);
+const dsd = new ethers.Contract(a.DSD, DSD.interface, owner);
+const VIEWER = await ethers.getContractFactory("InterfaceViewer");
+const BUYBACK = await ethers.getContractFactory("BuyBack");
+const HELPER = await ethers.getContractFactory("Helper");
+const GLA = await ethers.getContractFactory("GenesisLaunchAuction");
+const MARKET = await ethers.getContractFactory("Market");
+const BANK = await ethers.getContractFactory("Bank");
+const POOL = await ethers.getContractFactory("StakePool");
+  const TEAM = await ethers.getContractFactory("teamContract");
+const PRLAB = await ethers.getContractFactory("prLab");
+const LAB = await ethers.getContractFactory("Labs");
+const DSD = await ethers.getContractFactory("DSD");
+const USDT = await ethers.getContractFactory("USDT");
+const DAI = await ethers.getContractFactory("DAI");
+const USDC = await ethers.getContractFactory("USDC");
+a = owner.address.includes('0xf') || owner.address.includes('0xa') ? JSON.parse(fs.readFileSync("./addressesTest.json", "utf-8")) : JSON.parse(fs.readFileSync("./addresses.json", "utf-8"));
+const [owner] = await ethers.getSigners();
+await buyback.dayOfWithdraw()
+const parse = ethers.utils.parseEther;
+const bnf = ethers.BigNumber.from;
+function goodDate() {return Math.floor(Date.now() / 1000)};
+const viewer = new ethers.Contract(a.VIEWER, VIEWER.interface, owner);
+const buyback = new ethers.Contract(a.BUYBACK, BUYBACK.interface, owner);
+const prLab = new ethers.Contract(a.PRLAB, PRLAB.interface, owner);
+  const team = new ethers.Contract(a.TEAM, TEAM.interface, owner);
+const lab = new ethers.Contract(a.LAB, LAB.interface, owner);
+const pool = new ethers.Contract(a.POOL, POOL.interface, owner);
+const dai = new ethers.Contract(a.DAI, DAI.interface, owner);
+const usdt = new ethers.Contract(a.USDT, USDT.interface, owner);
+const gla = new ethers.Contract(a.GLA, GLA.interface, owner);
+const bank = new ethers.Contract(a.BANK, BANK.interface, owner);
+const market = new ethers.Contract(a.MARKET, MARKET.interface, owner);
+const usdc = new ethers.Contract(a.USDC, USDC.interface, owner);
+const dsd = new ethers.Contract(a.DSD, DSD.interface, owner);
+const VIEWER = await ethers.getContractFactory("InterfaceViewer");
+const BUYBACK = await ethers.getContractFactory("BuyBack");
+const HELPER = await ethers.getContractFactory("Helper");
+const GLA = await ethers.getContractFactory("GenesisLaunchAuction");
+const MARKET = await ethers.getContractFactory("Market");
+const BANK = await ethers.getContractFactory("Bank");
+const POOL = await ethers.getContractFactory("StakePool");
+  const TEAM = await ethers.getContractFactory("teamContract");
+const PRLAB = await ethers.getContractFactory("prLab");
+const LAB = await ethers.getContractFactory("Labs");
+const DSD = await ethers.getContractFactory("DSD");
+const USDT = await ethers.getContractFactory("USDT");
+const DAI = await ethers.getContractFactory("DAI");
+const USDC = await ethers.getContractFactory("USDC");
+a = owner.address.includes('0xf') || owner.address.includes('0xa') ? JSON.parse(fs.readFileSync("./addressesTest.json", "utf-8")) : JSON.parse(fs.readFileSync("./addresses.json", "utf-8"));
+const [owner] = await ethers.getSigners();
+new Date(1670965200 * 1e3).toString()
+new Date(1670965200 * 1e3)
+await buyback.dayOfWithdraw()
+await pool.setOptions(300, 8000, a.TEAM, 30, 40 , false)
+format("4052279580766694375000")
+format("3183933931138218640000")
+await pool.setOptions(300, 24000, a.TEAM, 30, 40 , false)
+format("50356939595000000000000000")
+format("0x7b1aa4a4c9334560864fb580e9a6ce44a670ffb1")
+await pool.userInfo(0,"0x7b1aa4a4c9334560864fb580e9a6ce44a670ffb1")
+await pool.userInfo(0,0x7b1aa4a4c9334560864fb580e9a6ce44a670ffb1)
+const format = ethers.utils.formatEther;
+const parse = ethers.utils.parseEther;
+const bnf = ethers.BigNumber.from;
+function goodDate() {return Math.floor(Date.now() / 1000)};
+const viewer = new ethers.Contract(a.VIEWER, VIEWER.interface, owner);
+const buyback = new ethers.Contract(a.BUYBACK, BUYBACK.interface, owner);
+const prLab = new ethers.Contract(a.PRLAB, PRLAB.interface, owner);
+  const team = new ethers.Contract(a.TEAM, TEAM.interface, owner);
+const lab = new ethers.Contract(a.LAB, LAB.interface, owner);
+const pool = new ethers.Contract(a.POOL, POOL.interface, owner);
+const dai = new ethers.Contract(a.DAI, DAI.interface, owner);
+const usdt = new ethers.Contract(a.USDT, USDT.interface, owner);
+const gla = new ethers.Contract(a.GLA, GLA.interface, owner);
+const bank = new ethers.Contract(a.BANK, BANK.interface, owner);
+const market = new ethers.Contract(a.MARKET, MARKET.interface, owner);
+const usdc = new ethers.Contract(a.USDC, USDC.interface, owner);
+const dsd = new ethers.Contract(a.DSD, DSD.interface, owner);
+const VIEWER = await ethers.getContractFactory("InterfaceViewer");
+const BUYBACK = await ethers.getContractFactory("BuyBack");
+const HELPER = await ethers.getContractFactory("Helper");
+const GLA = await ethers.getContractFactory("GenesisLaunchAuction");
+const MARKET = await ethers.getContractFactory("Market");
+const BANK = await ethers.getContractFactory("Bank");
+const POOL = await ethers.getContractFactory("StakePool");
+  const TEAM = await ethers.getContractFactory("teamContract");
+const PRLAB = await ethers.getContractFactory("prLab");
+const LAB = await ethers.getContractFactory("Labs");
+const DSD = await ethers.getContractFactory("DSD");
+const USDT = await ethers.getContractFactory("USDT");
+const DAI = await ethers.getContractFactory("DAI");
+const USDC = await ethers.getContractFactory("USDC");
+a = owner.address.includes('0xf') || owner.address.includes('0xa') ? JSON.parse(fs.readFileSync("./addressesTest.json", "utf-8")) : JSON.parse(fs.readFileSync("./addresses.json", "utf-8"));
+const [owner] = await ethers.getSigners();
+ await pool.connect(owner).setOptions(300, 280_000, a.TEAM, 30, 40, true);
+await usdc.balanceOf(a.GLA)
+75415754000 / 1e6
+await usdc.balanceOf(a.GLA)
+51085754000 / 1e6
+await usdc.balanceOf(a.GLA)
+await gla.initAt()
+await gla.publicOfferingEnabledAt()
+await usdc.balanceOf(a.GLA)
+await usdc.balamceOf(a.GLA)
+await viewer.getStep()
+await buyback.dayOfBuyBack()
+await team.releaseAllUsdc()
+await team.releaseAllEth()
+const format = ethers.utils.formatEther;
+const parse = ethers.utils.parseEther;
+const bnf = ethers.BigNumber.from;
+function goodDate() {return Math.floor(Date.now() / 1000)};
+const viewer = new ethers.Contract(a.VIEWER, VIEWER.interface, owner);
+const buyback = new ethers.Contract(a.BUYBACK, BUYBACK.interface, owner);
+const prLab = new ethers.Contract(a.PRLAB, PRLAB.interface, owner);
+  const team = new ethers.Contract(a.TEAM, TEAM.interface, owner);
+const lab = new ethers.Contract(a.LAB, LAB.interface, owner);
+const pool = new ethers.Contract(a.POOL, POOL.interface, owner);
+const dai = new ethers.Contract(a.DAI, DAI.interface, owner);
+const usdt = new ethers.Contract(a.USDT, USDT.interface, owner);
+const gla = new ethers.Contract(a.GLA, GLA.interface, owner);
+const bank = new ethers.Contract(a.BANK, BANK.interface, owner);
+const market = new ethers.Contract(a.MARKET, MARKET.interface, owner);
+const usdc = new ethers.Contract(a.USDC, USDC.interface, owner);
+const dsd = new ethers.Contract(a.DSD, DSD.interface, owner);
+const VIEWER = await ethers.getContractFactory("InterfaceViewer");
+const BUYBACK = await ethers.getContractFactory("BuyBack");
+const HELPER = await ethers.getContractFactory("Helper");
+const GLA = await ethers.getContractFactory("GenesisLaunchAuction");
+const MARKET = await ethers.getContractFactory("Market");
+const BANK = await ethers.getContractFactory("Bank");
+const POOL = await ethers.getContractFactory("StakePool");
+  const TEAM = await ethers.getContractFactory("teamContract");
+const PRLAB = await ethers.getContractFactory("prLab");
+const LAB = await ethers.getContractFactory("Labs");
+const DSD = await ethers.getContractFactory("DSD");
+const USDT = await ethers.getContractFactory("USDT");
+const DAI = await ethers.getContractFactory("DAI");
+const USDC = await ethers.getContractFactory("USDC");
+a = owner.address.includes('0xf') || owner.address.includes('0xa') ? JSON.parse(fs.readFileSync("./addressesTest.json", "utf-8")) : JSON.parse(fs.readFileSync("./addresses.json", "utf-8"));
+const [owner] = await ethers.getSigners();

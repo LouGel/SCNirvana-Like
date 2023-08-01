@@ -1,0 +1,48 @@
+const [owner, fees, wallet] = await ethers.getSigners();
+const USDC = await ethers.getContractFactory("USDC");
+const arbt = new ethers.Contract('0x912CE59144191C1204E64559FE8253a0e49E6548', USDC.interface, owner)
+const contractArbClaim  = new ethers.Contract('0x67a24CE4321aB3aF51c2D0a4801c3E111D88C9d9', ["function claim()",], owner)
+const DAI = await ethers.getContractFactory("DAI");
+const USDT = await ethers.getContractFactory("USDT");
+const DSD = await ethers.getContractFactory("DSD");
+const LAB = await ethers.getContractFactory("Labs");
+const PRLAB = await ethers.getContractFactory("prLab");
+  const TEAM = await ethers.getContractFactory("teamContract");
+const POOL = await ethers.getContractFactory("StakePool");
+const BANK = await ethers.getContractFactory("Bank");
+const MARKET = await ethers.getContractFactory("Market");
+const GLA = await ethers.getContractFactory("GenesisLaunchAuction");
+const HELPER = await ethers.getContractFactory("Helper");
+const BUYBACK = await ethers.getContractFactory("BuyBack");
+const VIEWER = await ethers.getContractFactory("InterfaceViewer");
+const dsd = new ethers.Contract(a.DSD, DSD.interface, owner);
+const usdc = new ethers.Contract(a.USDC, USDC.interface, owner);
+const market = new ethers.Contract(a.MARKET, MARKET.interface, owner);
+const bank = new ethers.Contract(a.BANK, BANK.interface, owner);
+const gla = new ethers.Contract(a.GLA, GLA.interface, owner);
+const usdt = new ethers.Contract(a.USDT, USDT.interface, owner);
+const dai = new ethers.Contract(a.DAI, DAI.interface, owner);
+const pool = new ethers.Contract(a.POOL, POOL.interface, owner);
+const lab = new ethers.Contract(a.LAB, LAB.interface, owner);
+  const team = new ethers.Contract(a.TEAM, TEAM.interface, owner);
+const prLab = new ethers.Contract(a.PRLAB, PRLAB.interface, owner);
+const buyback = new ethers.Contract(a.BUYBACK, BUYBACK.interface, owner);
+const viewer = new ethers.Contract(a.VIEWER, VIEWER.interface, owner);
+function goodDate() {return Math.floor(Date.now() / 1000)};
+const bnf = ethers.BigNumber.from;
+const parse = ethers.utils.parseEther;
+const format = ethers.utils.formatEther;
+
+
+
+
+
+
+
+await usdc.mint(owner.address, 1e12)
+await usdc.approve(a.GLA, 1e12)
+await usdc.approve(a.MARKET, 1e12)
+await gla.switchOffering()
+
+
+await market.buy(a.USDC, 1e10, 0)
